@@ -1,4 +1,4 @@
-## Simulate Annealing and Boolean Networks
+## Simulated Annealing and Boolean Networks
 
 This repository contains core code written as part of my MSc dissertation project investigating the application of [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing) to [Boolean networks](https://en.wikipedia.org/wiki/Boolean_network). Boolean networks are a deceptively simple structure that can exhibit behaviour complex enough for the modelling of gene regulation and other biological networks, and Simulated Annealing (SA) offers a potential useful approach to optimising/evolving Boolean networks for a desired behaviour. Prior work on evolved Boolean networks has used SA in the optimisation of networks, but my project looked in detail at how SA could be tuned/configured for some example Boolean networks, and how SA's performance compared to a more straighforward optimisation algorithm.
 
