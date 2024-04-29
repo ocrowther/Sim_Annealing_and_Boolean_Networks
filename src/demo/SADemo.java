@@ -60,7 +60,7 @@ public class SADemo {
                 System.out.println(i + " : " + candScore);
             }
 
-            //Accept if worse and passes acceptance criterion
+            //Accept if worse but passes acceptance criterion
             else if (delta > 0 && random.nextDouble(0,1) < Math.exp(-delta/tempCurrent)) {
                 currentSol = candidate;
                 currentScore = candScore;
