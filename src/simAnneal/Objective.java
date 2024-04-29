@@ -67,7 +67,7 @@ public class Objective {
      * Takes two Strings of the same length and computes hamming distance
      */
     private static int hammingDist(String str1, String str2){
-        if (str1.length() == 0) return 0;
+        if (str1.isEmpty()) return 0;
 
         int dist = 0;
 
